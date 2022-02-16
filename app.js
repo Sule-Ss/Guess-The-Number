@@ -35,7 +35,7 @@ function checkClick(e) {
     if (attempts.innerHTML == 0) {
       image.style.backgroundImage = "url(./img/gameover.gif)";
       checkButton.innerHTML = "RESTART";
-
+      textResult.innerHTML = "Click RESTART!";
       if (
         checkButton.addEventListener("click", () =>
           window.location.reload(false)
@@ -62,6 +62,7 @@ function checkClick(e) {
     guessInput.value = "";
     image.style.backgroundImage = "url(./img/winner.gif)";
     checkButton.innerHTML = "RESTART";
+    textResult.innerHTML = "CONGRATULATIONS!!!"
     if (
       checkButton.addEventListener("click", () => window.location.reload(false))
     ) {
