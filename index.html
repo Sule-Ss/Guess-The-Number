@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+
+    <title>Find The Number</title>
+
+    <link rel="shortcut icon" href="./img/hat.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header--text">
+                Guess The Number
+            </div>
+
+            <div class="guess-number">
+                <h3>(<span id="span1">1</span> - <span id="span2">100</span>)</h3>
+            </div>
+
+            <form action="#">
+                <input type="number" name="number" id="number"  min="0" max="100" required placeholder="0">
+
+                <button class="btn btn1"><span>CHECK</span></button>
+            </form>
+        </div>
+
+        <div class="image">
+
+        </div>
+
+        <div class="footer">
+            <h2>Number of attempts : <span id="attempts">10</span></h2>
+        </div>
+    </div>
+</body>
+
+</html>
