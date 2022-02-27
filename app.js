@@ -8,6 +8,8 @@ let image = document.querySelector(".image");
 
 let attempts = document.getElementById("attempts");
 
+guessInput.focus();
+
 checkButton.addEventListener("click", checkClick);
 
 let randomNum = Math.floor(Math.random() * 101);
