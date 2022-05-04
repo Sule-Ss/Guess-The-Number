@@ -14,7 +14,7 @@ guessInput.focus();
 checkButton.addEventListener("click", checkClick);
 
 let randomNum = Math.floor(Math.random() * 101);
-console.log(randomNum);
+// console.log(randomNum);
 
 let tried_list = [];
 function checkClick(e) {
