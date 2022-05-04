@@ -134,3 +134,7 @@ input {
 .footer{
     text-align: center;
 }
+
+.numberDiv{
+    margin: 1rem;
+}
